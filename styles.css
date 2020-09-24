@@ -94,3 +94,14 @@ header#menu div.right-side button {
     border: 0;
     border-radius: 16px;
 }
+
+div.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 380px;
+    width: 100%;
+    background: #3bb9e3;
+    color: #fff;
+}
