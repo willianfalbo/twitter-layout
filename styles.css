@@ -178,3 +178,101 @@ div.bar .content .action button {
     border: 1px solid #3bb9e3;
     border-radius: 16px;
 }
+
+div.wrapper {
+    display: flex;
+}
+
+div.wrapper aside.profile {
+    width: 260px;
+}
+
+div.wrapper aside.profile img.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -130px; /*top place avatar image over the bar*/
+}
+
+div.wrapper aside.profile h1 {
+    font-size: 21px;
+    color: #1f2226;
+    margin-top: 10px;
+}
+
+div.wrapper aside.profile span {
+    font-size: 14px;
+    color: #53626c;
+}
+
+div.wrapper aside.profile p {
+    font-size: 14px;
+    color: #1f2226;
+    margin-top: 15px;
+}  
+
+div.wrapper aside.profile ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+div.wrapper aside.profile li {
+    font-size: 14px;
+    color: #657786;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div.wrapper aside.profile li img {
+    margin-right: 10px;
+}
+
+div.wrapper aside.profile .widget {
+    margin-top: 20px;
+}
+
+div.wrapper aside.profile .widget strong {
+    font-weight: normal;
+    color: #3bb9e3;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper aside.profile .widget strong img {
+    margin-right: 5px;
+}
+
+div.wrapper aside.profile .followers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper aside.profile .followers li {
+    height: 45px;
+    width: 45px;
+    background: #d0d5d9;
+    border-radius: 50%;
+    flex: 1 0 auto;
+    margin: 0 5px 10px 0;
+}
+
+div.wrapper aside.profile .photos ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.wrapper aside.profile .photos li {
+    height: 80px;
+    width: 80px;
+    background: #d0d5d9;
+    border-radius: 4px;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
+}
